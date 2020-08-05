@@ -1,4 +1,6 @@
-attr_accessor :name, :age
+class Customer
+
+  attr_accessor :name, :age
 
   @@all = []
 
@@ -50,4 +52,5 @@ attr_accessor :name, :age
     end
     oldest_customer
   end
+
 end
